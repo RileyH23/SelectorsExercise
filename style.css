@@ -51,3 +51,29 @@ em{
     color: seashell;
     font-size: 25px;
 }
+
+input[:checked]{
+    margin-left: 40px
+}
+
+/* input[type="checkbox"]:checked{
+    margin-left: 40px;
+} */
+
+label{
+    text-transform: lowercase;
+}
+
+a[href="https://www.espn.com/"] {
+    color: silver;
+  }
+
+  #important::first-letter{
+    color: lime;
+    font-size: 90px;
+  }
+
+h1:hover{
+    color: navy;
+}
+
